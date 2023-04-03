@@ -34,7 +34,7 @@ Otherwise you can just adapt the environment variables to run a simple configura
 Docker compose is the recommended way to run this image. Edit the compose file with your preferences and run the following command:
 
 ```shell
-git clone https://github.com/k44sh/stunnel.git
+git clone https://github.com/k44sh/stunnel.git && cd stunnel
 mkdir stunnel
 docker compose up -d
 docker compose logs -f
